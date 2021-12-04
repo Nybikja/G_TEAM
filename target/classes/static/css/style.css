@@ -16,8 +16,11 @@ body {
     font-family: Trebuchet MS, Helvetica;
 }
 
+<<<<<<< Updated upstream
 /* Шапка сайту */
 
+=======
+>>>>>>> Stashed changes
 header {
     width: 100%;
     padding: 10px 0.5% 0px 0.5%;
@@ -96,8 +99,11 @@ header.fixed #logo {
 .fixed #about a {color: #343434}
 .fixed #about a:hover {color: #7c7c7c}
 
+<<<<<<< Updated upstream
 /* Головний блок сайту */
 
+=======
+>>>>>>> Stashed changes
 #top {
     width: 100%;
     background-image: url(https://toors.co/wp-content/uploads/2019/02/paragliding-in-georgia-in-gudauri.jpg);
@@ -139,8 +145,11 @@ header.fixed #logo {
     color: #ccc;
 }
 
+<<<<<<< Updated upstream
 /* Блок з можливостями */
 
+=======
+>>>>>>> Stashed changes
 #main {
     float: left;
     background-color: #f6f6f6;
@@ -179,8 +188,11 @@ header.fixed #logo {
 #main h2 {font-size: 3em}
 #main span {color: #a0a0a0}
 
+<<<<<<< Updated upstream
 /* Блок з перевагами */
 
+=======
+>>>>>>> Stashed changes
 #overview {
     float: left;
     background-image: url(https://petapixel.com/assets/uploads/2013/06/paragliding-3.jpg);
@@ -234,8 +246,11 @@ header.fixed #logo {
     }
 }
 
+<<<<<<< Updated upstream
 /* Блок з контактами */
 
+=======
+>>>>>>> Stashed changes
 #contacts {
     width: 100%;
     float: left;
@@ -299,9 +314,12 @@ h1, h2, h3, h4, h5 {
     background-color: #c15443;
 }
 
+<<<<<<< Updated upstream
 
 /* Питання і відповіді */
 
+=======
+>>>>>>> Stashed changes
 #faq {
     background-color: #fff;
     border-top: 2px dashed #e4e3e3;
