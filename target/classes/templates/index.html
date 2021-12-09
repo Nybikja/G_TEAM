@@ -1,0 +1,259 @@
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<<<<<<< Updated upstream
+	<meta charset="ISO-8859-1">
+	<title>Registration and Login App</title>
+
+	<link rel="stylesheet"
+		  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		  crossorigin="anonymous">
+	<link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+=======
+	<meta charset="UTF-8">
+	<title>Registration and Login App</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet"
+		  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		  crossorigin="anonymous">
+	<link href="./static/css/style.css" th:href="@{./static/css/style.css}" rel="stylesheet" />
+>>>>>>> Stashed changes
+
+</head>
+<body>
+<header>
+	<div id = "logo" onclick = "slowScroll('#top')">
+		<span>WeatherMet</span>
+	</div>
+	<div id = "about">
+<<<<<<< Updated upstream
+		<a href="#" title="??????????" onclick="slowScroll('#main')">??????????</a>
+		<a href="#" title="????????" onclick="slowScroll('#overview')">Dashboard</a>
+		<a href="#" title="????????" onclick="slowScroll('#contacts')">????????</a>
+		<a href="#" title="????????? ?? ?????????" onclick="slowScroll('#faq')">FAQ</a>
+		<a class="navbar-brand" href="#" th:href="@{/}">Registration</a>
+=======
+		<a href="#" title="Можливості" onclick="slowScroll('#main')">Можливості</a>
+		<a href="#" title="Dashboard" onclick="slowScroll('#overview')">Dashboard</a>
+		<a href="#" title="Контакти" onclick="slowScroll('#contacts')">Контакти</a>
+		<a href="#" title="FAQ" onclick="slowScroll('#faq')">FAQ</a>
+>>>>>>> Stashed changes
+		<a sec:authorize="isAuthenticated()" th:href="@{/logout}">Logout</a></a>
+
+	</div>
+</header>
+
+
+<<<<<<< Updated upstream
+
+
+
+
+<div id = "top">
+	<h1>G Team</h1>
+	<h3>????? ??????? ?????</h3>
+</div>
+
+<div id = "main">
+	<div class = "intro">
+		Welcome <span sec:authentication="principal.username"> User</span>
+		<h2>??? ??????? ???????? ????!</h2>
+		<span>?? ?????? ?? ??????? ???? ??????? ?????????? ? ???????????</span>
+	</div>
+	<div class = "text">
+		<span>???? ?????? ??????? ???? ??????? ??????????. ??????? ????? ????????????? ??????? ?? ??????? ???????? ?????? ?? ?????? ????????? ???????. ???? ??????? ???? - ?? ??????? ???????, ??? ???? ??????????? ??????? ????? ?? windguru, ??? ???? ??????? ????????? ????? ??????????????? ?????? ? ????????? ????.</span>
+=======
+<div id = "top">
+	<h1>G Team</h1>
+	<h3>Точні погодні умови</h3>
+</div>
+
+
+<div id = "main">
+	Welcome <span sec:authentication="principal.username"> User</span>
+
+	<div class = "intro">
+		<h2>Наш продукт допоможе усім!</h2>
+		<span>Ми знаємо як зробити ваші польоти безпечними і незабутніми</span>
+	</div>
+	<div class = "text">
+		<span>Наша задача зробити ваші польоти безпечними. Завдяки нашій метрологічній станції ви зможете безпечно літати на висоті пташиного польоту. Наша головна мета - це зробити станцію, яка буде відправляти погодні умови на windguru, щоб наша цільова аудиторія могла відслідковувати погоду в реальному часі.</span>
+>>>>>>> Stashed changes
+	</div>
+</div>
+
+<div id = "overview">
+	<h2>Dashboard</h2>
+<<<<<<< Updated upstream
+	<h4>? ???? ??? ????????</h4>
+
+	<div class = "img">
+		<img src = "https://itproger.com/img/courses/1538723047.jpg" alt = "">
+		<span>??????????? ??????? ??????????? ???-?????</span>
+	</div>
+	<div class = "img">
+		<img src = "https://itproger.com/img/courses/1551371255.jpg" alt = "">
+		<span>???????? ASP.NET Core MVC. ???????? ?????? ?? C# </span>
+	</div>
+	<div class = "img">
+		<img src = "https://itproger.com/img/courses/1549960024.jpg" alt = "">
+		<span>???????? ????-????????? Gulp 4 </span>
+	</div>
+	<div class = "img">
+		<img src = "https://itproger.com/img/courses/1585664833.jpg" alt = "">
+		<span>???????? ????? ?? Python</span>
+=======
+	<h4>з нами все простіше</h4>
+
+	<div class = "img">
+		<img src = "https://itproger.com/img/courses/1538723047.jpg" alt = "">
+		<span>Современная вёрстка адаптивного веб-сайта</span>
+	</div>
+	<div class = "img">
+		<img src = "https://itproger.com/img/courses/1551371255.jpg" alt = "">
+		<span>Изучение ASP.NET Core MVC. Создание сайтов на C# </span>
+	</div>
+	<div class = "img">
+		<img src = "https://itproger.com/img/courses/1549960024.jpg" alt = "">
+		<span>Изучение таск-менеджера Gulp 4 </span>
+	</div>
+	<div class = "img">
+		<img src = "https://itproger.com/img/courses/1585664833.jpg" alt = "">
+		<span>Создание сайта на Python</span>
+>>>>>>> Stashed changes
+	</div>
+</div>
+
+<div id = "contacts">
+<<<<<<< Updated upstream
+	<center><h5>????????? ??'????</h5></center>
+	<form id = "form_input">
+		<label for="name">??'? <span>*</span></label><br>
+		<input type="text" placeholder="??????? ??'?" name="name" id="name"><br>
+		<label for="email">???? ????? <span>*</span></label><br>
+		<input type="email" placeholder="??????? email" name="email" id="email"><br>
+		<label for="message">???????????? <span>*</span></label><br>
+		<textarea placeholder="??????? ???? ????????????" name="message" id="message"></textarea><br>
+		<div id="mess_send" class="btn">??????????</div>
+	</form>
+=======
+	<h5>Зворотній зв'язок</h5>
+	<s:form method="post" modelAttribute="contact"
+			action="${pageContext.request.contextPath }/contact/send" class="telegram-form">
+		<table>
+			<tr>
+				<td>Name</td>
+				<td>
+					<s:input path="name"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Phone</td>
+				<td>
+					<s:input path="phone"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>
+					<s:input path="email"/>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Send"/></td>
+			</tr>
+		</table>
+
+		<label for="name">Ім'я <span>*</span></label><br>
+		<input type="text" placeholder="Введіть ім'я" name="name" id="name"><br>
+		<label for="email">Ваша пошта <span>*</span></label><br>
+		<input type="email" placeholder="Введіть email" name="email" id="email"><br>
+		<label for="message">Повідомлення <span>*</span></label><br>
+		<textarea placeholder="Введіть ваше повідомлення" name="message" id="message"></textarea><br>
+		<input id="mess_send" class type="submit" value="Send Request">
+	</s:form>
+>>>>>>> Stashed changes
+</div>
+
+<div id="faq">
+	<div>
+<<<<<<< Updated upstream
+		<span class="title">??????</span><br>
+		<span class="heading">?? ???? ????????? ???????</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">?? ???? ????????? ???????</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">?? ???? ????????? ???????</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+	</div>
+	<div>
+		<span class="title">??????????</span><br>
+		<span class="heading">?? ??????? ? ??????? ????????</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">?? ??????? ? ??????? ????????</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">?? ??????? ? ??????? ????????</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+	</div>
+	<div>
+		<span class="title">????????</span><br>
+		<span class="heading">??? ???????? ?</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">??? ???????? ?</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">??? ???????? ?</span>
+=======
+		<span class="title">Оплата</span><br>
+		<span class="heading">Як буде проходити оплата?</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">Як буде проходити оплата?</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">Як буде проходити оплата?</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+	</div>
+	<div>
+		<span class="title">Інформація</span><br>
+		<span class="heading">Що входить в послуги сервіса?</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">Що входить в послуги сервіса?</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">Що входить в послуги сервіса?</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+	</div>
+	<div>
+		<span class="title">Гарантії</span><br>
+		<span class="heading">Які гарантії є</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">Які гарантії є</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+		<span class="heading">Які гарантії є</span>
+>>>>>>> Stashed changes
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+	</div>
+</div>
+
+<<<<<<< Updated upstream
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+=======
+
+
+>>>>>>> Stashed changes
+<script>
+	function slowScroll(id) {
+		$('html, body').animate({
+			scrollTop: $(id).offset().top
+		}, 500);
+	}
+
+	$(document).on("scroll", function () {
+		if ($(window).scrollTop() === 0)
+			$("header").removeClass("fixed");
+		else
+			$("header").attr("class", "fixed");
+	});
+
+</script>
+</body>
+
+</html>
