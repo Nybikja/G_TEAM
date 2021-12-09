@@ -28,7 +28,7 @@ public class ContactController {
 
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom(email);
-        message.setTo("nazar.ua87@gmail.com");
+        message.setTo("yarkos03@gmail.com");
 
         String mailSubject = fullName + " has sent you a message.";
         String mailContent = "Sender name: " + fullName + "\n" +
@@ -40,9 +40,6 @@ public class ContactController {
 
         mailSender.send(message);
 
-
-
-
-        return "message";
+        return "redirect:/";
     }
 }

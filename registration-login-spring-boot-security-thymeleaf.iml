@@ -14,13 +14,10 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-<<<<<<< Updated upstream
-        <datasource-mapping />
-=======
         <datasource-mapping>
           <factory-entry name="entityManagerFactory" />
+          <factory-entry name="registration-login-spring-boot-security-thymeleaf" />
         </datasource-mapping>
->>>>>>> Stashed changes
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -39,10 +36,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-<<<<<<< Updated upstream
-=======
     <orderEntry type="library" name="jquery" level="application" />
->>>>>>> Stashed changes
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.6" level="project" />
@@ -63,10 +57,6 @@
     <orderEntry type="library" name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jaxb:txw2:2.3.3" level="project" />
     <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:3.0.11" level="project" />
-<<<<<<< Updated upstream
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
-=======
->>>>>>> Stashed changes
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-jpa:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.3.1" level="project" />
@@ -94,13 +84,10 @@
     <orderEntry type="library" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.4.RELEASE" level="project" />
-<<<<<<< Updated upstream
-=======
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-mail:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.3.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.mail:jakarta.mail:1.6.5" level="project" />
     <orderEntry type="library" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
->>>>>>> Stashed changes
     <orderEntry type="library" name="Maven: org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.4.0" level="project" />
@@ -152,5 +139,8 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.security:spring-security-test:5.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.4.1" level="project" />
+    <orderEntry type="library" name="firebase-app" level="application" />
+    <orderEntry type="library" name="firebase-firestore" level="application" />
+    <orderEntry type="library" name="firebase-database" level="application" />
   </component>
 </module>

@@ -13,10 +13,6 @@ public class MainController {
 	
 	@GetMapping("/")
 	public String home() {
-<<<<<<< Updated upstream
-		return "index";
-=======
 		return "index.html";
->>>>>>> Stashed changes
 	}
 }
